@@ -1,0 +1,17 @@
+{
+    "name": "docker_compose_nodemon",
+    "version": "0.0.1",
+    "description": "Node.js  Docker + docker-compose + nodemon",
+    "author": "andry <randriambelo.andry@hotmail.fr>",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js",
+      "start-dev": "./node_modules/nodemon/bin/nodemon.js ."
+    },
+    "dependencies": {
+      "express": "^4.16.1"
+    },
+    "devDependencies": {
+      "nodemon": "^1.19.4"
+    }
+   }
